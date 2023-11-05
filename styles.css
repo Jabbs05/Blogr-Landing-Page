@@ -1,0 +1,757 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: Ubuntu-Bold;
+    src: url(Assets/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(Assets/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: Overpass;
+    src: url(Assets/Overpass-Regular.ttf);
+}
+
+.section1 {
+    background-image: url(assets/bg-pattern-intro-desktop.svg);
+    background-color: rgb(255, 61, 84);
+    margin: 0;
+    height: 60vh;
+    background-size: 175%;
+    border-bottom-left-radius: 50px;
+    background-position: left;
+}
+
+.nav-desktop {
+    margin: 0;
+    display: flex;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+.nav-desktop ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: White;
+    font-family: Ubuntu;
+}
+
+.nav-desktop li {
+    margin-right: 60px;
+    transition: 0.5s;
+    height: 16px;
+}
+
+.Product>li {
+    display: flex;
+    margin: 0;
+    color: black;
+    flex-direction: row;
+    border-radius: 50px;
+    margin: 5px 0;
+    transition: 0.5s;
+}
+
+.Product>li:hover {
+    display: flex;
+    margin: 0;
+    color: black;
+    flex-direction: row;
+    border-radius: 50px;
+    margin: 5px 0;
+    font-weight: 700;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.one,
+.two,
+.three {
+    transition: 0.5s;
+}
+
+.one:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.two:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.three:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.nav-desktop .one .dropdown>ul {
+    display: none;
+    transition: 0.5s;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    background: white;
+    margin: 0;
+    width: 100px;
+    padding: 10px 10px 10px 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.5s;
+    box-shadow: 10px -6px 24px -9px rgb(0 0 0 / 75%);
+}
+.nav-desktop .two .dropdown1>ul {
+    display: none;
+    transition: 0.5s;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 380px;
+    background: white;
+    margin: 0;
+    width: 100px;
+    padding: 10px 10px 10px 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.5s;
+    box-shadow: 10px -6px 24px -9px rgb(0 0 0 / 75%);
+}
+
+.nav-desktop .three .dropdown2>ul {
+    display: none;
+    transition: 0.5s;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 510px;
+    background: white;
+    margin: 0;
+    width: 100px;
+    padding: 10px 10px 10px 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.5s;
+    box-shadow: 10px -6px 24px -9px rgb(0 0 0 / 75%);
+}
+
+.nav-desktop li:hover {
+    transition: 0.5s;
+}
+
+.logs :nth-child(1) {
+    border-width: 0px;
+    background-color: transparent;
+    font-weight: 600;
+    color: white;
+}
+
+.logs :nth-child(2) {
+    border-width: 0px;
+    background-color: white;
+    font-weight: 600;
+    color: hsl(353, 100%, 62%);
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+.logs :nth-child(2):hover {
+  border-width: 0px;
+  background-color: hsl(13, 100%, 72%);
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  border-radius: 40px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.logs {
+    margin-left: 20%;
+}
+
+.section1 h1 {
+    display: grid;
+    place-items: center;
+    color: white;
+    margin-top: 65px;
+    font-family: Overpass;
+    font-size: 48px;
+}
+
+.section1 h6 {
+    display: grid;
+    place-items: center;
+    color: white;
+    margin-top: 10px;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.startup :nth-child(1) {
+    border-width: 0px;
+    background-color: white;
+    font-weight: 600;
+    color: hsl(353, 100%, 62%);
+    border-radius: 40px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-family: Ubuntu-bold;
+}
+
+.startup :nth-child(1):hover {
+    border-width: 0px;
+    background-color: hsl(13, 100%, 72%);
+    font-weight: 600;
+    color: white;
+    border-radius: 40px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.startup :nth-child(2) {
+    color: white;
+    padding: 10px 20px;
+    border-color: white;
+    border-radius: 40px;
+    border-width: 1px;
+    font-weight: 600;
+    background-color: transparent;
+    border-style: solid;
+    font-family: Ubuntu-bold;
+}
+
+.startup :nth-child(2):hover {
+    color: hsl(13, 100%, 72%);
+    padding: 10px 20px;
+    border-color: white;
+    border-radius: 40px;
+    border-width: 1px;
+    font-weight: 600;
+    background-color: white;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.startup {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.section2>h1 {
+    display: grid;
+    place-items: center;
+    margin-top: 4em;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: hsl(208, 49%, 24%);
+    width: fit-content;
+    margin: 4em auto 0 auto;
+}
+
+.temage {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.section2>.edit-desk {
+    transform: translateX(85px) translateY(-50px);
+    z-index: 3;
+    width: 80%;
+    height: 80%;
+}
+
+.temage h2 {
+    color: hsl(208, 49%, 24%);
+    font-family: Ubuntu;
+    margin-bottom: 20px;
+    margin-top: 240px;
+}
+
+.temage p {
+    color: hsl(207, 13%, 34%);
+    width: 39vw;
+    font-family: Overpass;
+    line-height: 25px;
+}
+
+.section2 {
+    overflow: hidden;
+}
+
+.temage>section {
+    margin-left: 40px;
+}
+
+.temage>section :nth-child(3) {
+    margin-top: 20px;
+
+}
+.temage>section :nth-child(4) {
+    margin-top:80px;
+}
+.temage>section :nth-child(2) {
+    margin-bottom:20px;
+}
+
+.section3 {
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    height: 60vh;
+    background: url(Assets/bg-pattern-circles.svg) hsl(237, 17%, 21%);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: -500px;
+    background-position-y: -700px;
+    display: flex;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.section3 img {
+    transform: translateY(-50px);
+    width: 552px;
+    height: 579px;
+}
+
+.section3>div {
+    height: 80px;
+}
+
+.text>p {
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Overpass;
+    color: hsl(0, 0%, 100%);
+    width: 45vw;
+}
+
+.text>h2 {
+    color: hsl(0, 0%, 100%);
+    font-family: Ubuntu;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 38px;
+    font-weight: lighter;
+}
+
+.text {
+    margin-left: 40px;
+}
+
+.section4 {
+    display: flex;
+    margin-top: 250px;
+    margin-bottom: 100px;
+}
+
+.section4 img {
+    transform: translateX(-280px);
+}
+
+.section4 p {
+    color: hsl(207, 13%, 34%);
+    width: 39vw;
+    font-family: Overpass;
+    line-height: 28px;
+}
+
+.write {
+    margin-left: -250px;
+    margin-top: 200px;
+}
+
+.write h2 {
+    color: hsl(208, 49%, 24%);
+    font-family: Ubuntu;
+    margin-bottom: 20px;
+}
+
+.write :nth-child(3) {
+    margin-top: 90px;
+}
+
+.section5 {
+    height: 60vh;
+    background-color: hsl(240, 10%, 16%);
+    border-top-right-radius: 50px;
+    padding-top: 70px;
+    padding-left: 100px;
+    color: hsl(240, 2%, 79%);
+    display: flex;
+}
+
+.section5 img {
+    width: 101px;
+    height: 40px;
+}
+
+.ends {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.ends>ul {
+    list-style: none;
+    line-height: 40px;
+    font-family: Overpass;
+}
+
+.ends ul :nth-child(1) {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%)
+}
+
+.ends ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.nav-desktop-mobile{
+    display: none;
+}
+.edit-mob{
+    display: none;
+}
+.lap-mobile{
+    display: none;
+}
+.section0{
+    display:none;
+}
+@media (max-width:800px){
+    /* html{
+        overflow-x: hidden;
+    } */
+    .section0{
+        display: block;
+        background-color:white;
+        color:hsl(237, 17%, 21%);
+        width:80vw;
+        position: fixed;
+        left:2.5em;
+        top:6em;
+        border-radius: 10px;
+        box-shadow: 0px 0px 46px 3px rgb(0 0 0 / 75%);
+        padding:0px;
+        opacity: 0;
+    }
+    .section0 ul{
+        list-style: none;      
+    }
+    .mobile-prod1{
+        display:none;
+        transition: 1s;
+        margin-left: -10px;
+        line-height: 30px;
+        transition: 0.5s;
+        opacity:0;
+        background-color:hsl(10, 9%, 86%);
+        width: min-content;
+        padding: 15px 20vw;
+        border-radius: 8px;
+        margin-top: 10px;
+        font-family: Overpass;
+        color:hsl(208, 49%, 24%);
+        font-weight: 300;
+        text-align: center;
+        
+    }
+    .mobile-prod1>li:hover{
+        font-weight:bold;
+    }
+    .mobile-prod2>li:hover{
+        font-weight:bold;
+    }
+    .mobile-prod3>li:hover{
+        font-weight:bold;
+    }
+    .lists p{
+        text-align: center;
+        margin-left: -40px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: Overpass;
+    }
+    .mobile-prod2{
+        display:none;
+        transition: 1s;
+        margin-left:5px;
+        line-height: 30px;
+        transition: 0.5s;
+        opacity:0;
+        background-color:hsl(10, 9%, 86%);
+        width: min-content;
+        padding: 15px 20vw;
+        border-radius: 8px;
+        margin-top: 10px;
+        font-family: Overpass;
+        color:hsl(208, 49%, 24%);
+        font-weight: 300;
+        text-align: center;
+    }
+    .mobile-prod3{
+        display:none;
+        transition: 1s;
+        margin-left:-5px;
+        line-height: 30px;
+        transition: 0.5s;
+        opacity:0;
+        background-color:hsl(10, 9%, 86%);
+        width: min-content;
+        padding: 15px 20vw;
+        border-radius: 8px;
+        margin-top: 10px;
+        font-family: Overpass;
+        color:hsl(208, 49%, 24%);
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .border{
+       border-bottom: 1px solid hsl(207, 13%, 34%);
+       height:3px;
+       width:60vw;
+       margin: auto auto;
+    }
+    .logs-mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    .logs-mobile :nth-child(1){
+    border-width: 0px;
+    background-color: white;
+    font-weight: 600;
+    color: hsl(237, 17%, 21%);
+    border-radius: 40px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-family: Ubuntu-bold;
+    width: 100px;
+    margin: auto auto;
+    }
+    .logs-mobile :nth-child(2){
+        border-width: 0px;
+        background-color: hsl(13, 100%, 72%) ;
+        font-weight: 600;
+        color: hsl(0, 0%, 100%);
+        border-radius: 40px;
+        padding: 10px 20px;
+        cursor: pointer;
+        width:100px;
+        height: min-content;
+        margin: auto auto;
+        margin-bottom: 20px;
+    }
+    .nav-desktop-mobile>img{
+        width:101px;
+        height:40px;
+    }
+    .hamburger{
+        width:32px;
+        height:26px;
+        background: url(Assets/icon-hamburger.svg);
+        background-repeat: no-repeat;
+    }
+ .section1{
+    background-image: url(assets/bg-pattern-intro-mobile.svg);
+    background-color: rgb(255, 61, 84);
+    margin: 0;
+    height: 60vh;
+    background-size: 300%;
+    border-bottom-left-radius: 50px;
+    background-position-x: -80vw;
+ }
+.nav-desktop{
+    display: none;
+}
+.nav-desktop-mobile{
+    display: flex;
+    justify-content: space-between;
+    padding:50px 10px 0px 10px;
+}
+.section1 h1{
+    display: grid;
+    place-items: center;
+    color: white;
+    margin-top: 65px;
+    font-family: Overpass;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: 100;
+}
+.section1 h6{
+    display: grid;
+    place-items: center;
+    color: white;
+    margin-top: 10px;
+    font-family: Ubuntu;
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+}
+.section2>h1 {
+    display: grid;
+    place-items: center;
+    margin-top: 4em;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 2em;
+    color: hsl(208, 49%, 24%);
+    width: fit-content;
+    margin: 4em auto 0 auto;
+}
+.edit-desk{
+    display: none;
+}
+.edit-mob{
+display:block;
+margin: 0px;
+transform: translateX(-50px) translateY(30px) ;
+}
+.temage h2{
+    color: hsl(208, 49%, 24%);
+    font-family: Ubuntu;
+    margin-bottom: 20px;
+    margin-top: 2em;
+    text-align: center;
+    width: 60vw;
+    margin-left: 1.5em;
+}
+.temage p {
+    color: hsl(207, 13%, 34%);
+    width: 80vw;
+    text-align: center;
+    font-family: Overpass;
+    line-height: 25px;
+}
+.temage>section :nth-child(3) {
+    margin-top: 00px;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    background: url(Assets/bg-pattern-circles.svg) hsl(237, 17%, 21%);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position-y: -250px;
+    background-position-x: -100px;
+    height: 80vh;
+}
+.section3 img {
+    transform: translateY(-200px);
+    width: auto;
+    height: auto;
+}
+.section3>div {
+    height: 80px;
+}
+
+.text>p {
+    line-height: 30px;
+    font-size:1.2em;
+    font-weight: 100;
+    font-family: Overpass;
+    color: hsl(0, 0%, 100%);
+    width: 80vw;
+    text-align: center;
+}
+
+.text>h2 {
+    color: hsl(0, 0%, 100%);
+    font-family: Ubuntu;
+    margin-top: -5em;
+    margin-bottom: 30px;
+    font-size: 38px;
+    font-weight: lighter;
+    text-align:center;
+    margin-left: 10px;
+}
+
+.text {
+    margin-left: 40px;
+}
+.section4{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    margin-bottom: 4em;
+    margin-top: 4em;
+}
+.lap-desk{
+    display: none;
+}
+.lap-mobile{
+    display: block;
+    transform: translateX(0px);
+}
+
+.section4 img {
+    transform: translateX(0px);
+}
+
+.section4 p {
+    color: hsl(207, 13%, 34%);
+    width: 80vw;
+    font-family: Overpass;
+    line-height: 28px;
+    margin: auto auto;
+}
+.write {
+    margin-left: 0px;
+    margin-top: 00px;
+    text-align: center;
+}
+.write h2 {
+    color: hsl(208, 49%, 24%);
+    font-family: Ubuntu;
+    margin-bottom: 20px;
+}
+.write :nth-child(3) {
+    margin-top: 90px;
+}
+.section5 {
+    height: 90vh;
+    background-color: hsl(240, 10%, 16%);
+    border-top-right-radius: 50px;
+    padding-top: 30px;
+    padding-left: 0px;
+    color: hsl(240, 2%, 79%);
+    display: flex;
+    flex-direction: column;
+}
+.section5 img {
+    width: 101px;
+    height: 40px;
+    margin:auto auto;
+    transform: translateX(-30px);
+    margin-bottom: 20px;
+}
+.ends {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50vw;
+    margin: auto auto;
+}
+}
