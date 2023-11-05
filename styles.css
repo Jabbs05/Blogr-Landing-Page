@@ -4,21 +4,21 @@
 
 @font-face {
     font-family: Ubuntu-Bold;
-    src: url(Assets/Ubuntu-Bold.ttf);
+    src: url(Ubuntu-Bold.ttf);
 }
 
 @font-face {
     font-family: Ubuntu;
-    src: url(Assets/Ubuntu-Regular.ttf);
+    src: url(Ubuntu-Regular.ttf);
 }
 
 @font-face {
     font-family: Overpass;
-    src: url(Assets/Overpass-Regular.ttf);
+    src: url(Overpass-Regular.ttf);
 }
 
 .section1 {
-    background-image: url(assets/bg-pattern-intro-desktop.svg);
+    background-image: url(bg-pattern-intro-desktop.svg);
     background-color: rgb(255, 61, 84);
     margin: 0;
     height: 60vh;
@@ -311,7 +311,7 @@
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     height: 60vh;
-    background: url(Assets/bg-pattern-circles.svg) hsl(237, 17%, 21%);
+    background: url(bg-pattern-circles.svg) hsl(237, 17%, 21%);
     background-repeat: no-repeat;
     background-position: bottom;
     background-position-x: -500px;
@@ -565,11 +565,11 @@
     .hamburger{
         width:32px;
         height:26px;
-        background: url(Assets/icon-hamburger.svg);
+        background: url(icon-hamburger.svg);
         background-repeat: no-repeat;
     }
  .section1{
-    background-image: url(assets/bg-pattern-intro-mobile.svg);
+    background-image: url(bg-pattern-intro-mobile.svg);
     background-color: rgb(255, 61, 84);
     margin: 0;
     height: 60vh;
@@ -651,7 +651,7 @@ transform: translateX(-50px) translateY(30px) ;
     display: flex;
     flex-direction: column;
     margin-top: 200px;
-    background: url(Assets/bg-pattern-circles.svg) hsl(237, 17%, 21%);
+    background: url(bg-pattern-circles.svg) hsl(237, 17%, 21%);
     background-size: 150%;
     background-repeat: no-repeat;
     background-position-y: -250px;
