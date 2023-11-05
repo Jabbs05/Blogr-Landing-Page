@@ -147,7 +147,7 @@ function clicks1(){
             if (navmob.style.opacity === "1") {
                 navmob.style.opacity = "0"
                 navmob.style.transition = "0.5s"
-                hamburger.style.background = "url(Assets/icon-hamburger.svg)"
+                hamburger.style.background = "url(icon-hamburger.svg)"
                 hamburger.style.height = "26px"
                 mobclcikkk.style.display = "none";
                 mobclcikk.style.display = "none";
@@ -158,7 +158,7 @@ function clicks1(){
             } else {
                 navmob.style.opacity = "1"
                 navmob.style.transition = "0.5s"
-                hamburger.style.background = "url(Assets/icon-close.svg)"
+                hamburger.style.background = "url(icon-close.svg)"
                 // hamburger.style.height = "30px"
             }
         }
