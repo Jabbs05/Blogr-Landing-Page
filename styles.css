@@ -740,6 +740,7 @@ transform: translateX(-50px) translateY(30px) ;
     color: hsl(240, 2%, 79%);
     display: flex;
     flex-direction: column;
+    padding-bottom:25px;
 }
 .section5 img {
     width: 101px;
